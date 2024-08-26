@@ -29,6 +29,7 @@ jobs:
 
     - name: Run tests
       run: ./gradlew test
+      hacker_one= token
       git add .github/workflows/ci.yml
 git commit -m "Add GitHub Actions workflow"
 git push origin main
